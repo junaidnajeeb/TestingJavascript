@@ -6,7 +6,6 @@ const { parse, stringify } = require('./../query');
 
 describe("The Query package Tests", function() {
 
-
 	describe("Parse function tests", function() {
 		it("Should return an object of all query params when a query string is passed ", function() {
 			const query = "?by=junaid-najeeb&popular=true&category=nodejs";
